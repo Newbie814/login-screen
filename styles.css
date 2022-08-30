@@ -102,3 +102,20 @@
 .input-group.error .message {
   color: hsl(var(--error));
 }
+
+.login-btn {
+  padding: 0.5em 1em;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+  background-color: hsl(var(--color-primary), 0.25);
+  border: 1px solid hsl(var(--color-primary));
+  border-radius: 0.25rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-btn:hover,
+.login-btn:hover {
+  background-color: hsl(var(--color-primary), 0.5);
+}
